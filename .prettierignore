@@ -1,0 +1,7 @@
+yarn.lock
+package-lock.json
+public
+**/node_modules/*
+**/out/*
+**/.next/*
+/*.js
