@@ -10,7 +10,6 @@ const Home: NextPage = () => {
   const [characters, setCharacters] = useState(initalState)
 
   const setClicked = useCallback((name: string) => {
-
     const newList = characters.map(character => {
       if (character.name === name) {
         character.clicked = !character.clicked
@@ -20,7 +19,6 @@ const Home: NextPage = () => {
 
     setCharacters(newList)
   }, [characters])
-
 
   return (
     <div className="bg-gray-800">
